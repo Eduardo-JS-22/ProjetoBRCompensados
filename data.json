@@ -1,0 +1,144 @@
+{
+    "client": [
+        {
+            "name": "Zoo Moveis",
+            "document": "84157443000180",
+            "phone": "4136545225",
+            "email": "comercial@zoomoveis.com.br"
+        },
+        {
+            "name": "Jo\u00e3o de Azevedo Neto",
+            "document": "48449094011",
+            "phone": "4136913269",
+            "email": "joaoazevedoneto@gmail.com"
+        }
+    ],
+    "address": [
+        {
+            "document": "89090103000101",
+            "street": "Rua Lauro Martins",
+            "number": "1762",
+            "neighborhood": "Nova Esperan\u00e7a",
+            "city": "Mallett",
+            "state": "Paran\u00e1",
+            "zip": "51856014"
+        },
+        {
+            "document": "84157443000180",
+            "street": "Rua Colorado",
+            "number": "567",
+            "neighborhood": "Cidade Industrial",
+            "city": "Curitiba",
+            "state": "Paran\u00e1",
+            "zip": "26461619"
+        },
+        {
+            "document": "56536278000132",
+            "street": "Rua Jo\u00e3o de Queiroz Filho",
+            "number": "142",
+            "neighborhood": "Algarra",
+            "city": "Ponta Grossa",
+            "state": "Paran\u00e1",
+            "zip": "21649349"
+        },
+        {
+            "document": "48449094011",
+            "street": "Rua Rodrigo de Almeida",
+            "number": "512",
+            "neighborhood": "Fazendinha",
+            "city": "Pato Branco",
+            "state": "Paran\u00e1",
+            "zip": "36544354"
+        }
+    ],
+    "supplier": [
+        {
+            "name": "Mallett Compensados",
+            "document": "89090103000101",
+            "phone": "4235343619",
+            "email": "comercial@malletcompensados.com.br"
+        },
+        {
+            "name": "Ca\u00e7ula Compensados e Madeiras LTDA",
+            "document": "56536278000132",
+            "phone": "4839265233",
+            "email": "comercial@ca\u00e7ula.com.br"
+        }
+    ],
+    "product": [
+        {
+            "id": "ABC12",
+            "length": 244,
+            "width": 122,
+            "thickness": 15,
+            "type_of_glue": "Branca",
+            "quantity": 100,
+            "purchase_price": 20.0,
+            "sales_price": 30.0
+        },
+        {
+            "id": "ABC21",
+            "length": 240,
+            "width": 160,
+            "thickness": 12,
+            "type_of_glue": "Branca",
+            "quantity": 60,
+            "purchase_price": 15.0,
+            "sales_price": 25.0
+        },
+        {
+            "id": "ABC123",
+            "length": 250,
+            "width": 120,
+            "thickness": 15,
+            "type_of_glue": "Branca",
+            "quantity": 15,
+            "purchase_price": 25.0,
+            "sales_price": 40.0
+        }
+    ],
+    "sales": [
+        {
+            "id": "1",
+            "document": "84157443000180",
+            "name": "Zoo Moveis",
+            "address": "Rua Colorado 567, Cidade Industrial, Curitiba - Paran\u00e1, 26461619",
+            "product": [
+                "ABC12",
+                "ABC21"
+            ],
+            "quantity": [
+                5,
+                2
+            ],
+            "type_of_payment": "Dinheiro",
+            "total_value": 200.0
+        }
+    ],
+    "purchase": [
+        {
+            "id": "1",
+            "document": "89090103000101",
+            "name": "Mallett Compensados",
+            "address": "Rua Lauro Martins 1762, Nova Esperan\u00e7a, Mallett - Paran\u00e1, 51856014",
+            "product": [
+                "ABC12",
+                "ABC21"
+            ],
+            "quantity": [
+                45,
+                32
+            ],
+            "type_of_payment": "Cheque Pr\u00e9-Datado",
+            "total_value": 1380.0
+        }
+    ],
+    "expense": [
+        {
+            "id": "1",
+            "name": "Compra de Combust\u00edvel",
+            "description": "Compra de Combust\u00edvel para o Maquin\u00e1rio.",
+            "expense_price": 175.0
+        }
+    ]
+}
