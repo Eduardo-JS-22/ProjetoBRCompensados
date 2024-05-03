@@ -18,16 +18,16 @@
 </br>
 
 <h2>Status do projeto:</h2>
-<p><b>Back-End: </b>Desenvolvimento do back-end parcialmente finalizado, necessitando de alterações no Financeiro para adequar a visualização por mês e ano.</p>
+<p><b>Back-End: </b>Desenvolvimento inicialmente finalizado. Será convertido em breve para funcionar com Node.js (JavaScript e Express).</p>
 <p><b>Front-End: </b>Desenvolvimento previsto para começar em breve, criando a interface que será utilizada pelos usuários.</p>
 <p><b>Banco de Dados: </b>Desenvolvimento previsto para começar em breve, convertendo o salvamento de dados em JSON para um Banco de Dados.</p>
 
 </br>
 
 <h2>Ferramentas Utilizadas:</h2>
-<img width="50" alt="Python" src="https://github.com/Eduardo-JS-22/ProjetoBRCompensados/assets/135711340/174cdb4f-06e5-486c-907c-704a1e669ee3"><p><b>Python: </b>Utilizado para o desenvolvimento do back-end da aplicação.</p>
-<img width="50" alt="Django" src="https://github.com/Eduardo-JS-22/ProjetoBRCompensados/assets/135711340/92e82b55-4878-4bf2-8085-4dadaaae7468"><p><b>Django: </b>Framework definido para ser utilizado no desenvolvimento da interface do aplicativo.</p>
-<img width="50" alt="MySQL" src="https://github.com/Eduardo-JS-22/ProjetoBRCompensados/assets/135711340/91be1295-44ea-4c4e-95bd-118d3aa8e451"><p><b>MySQL: </b>Sistema de gerenciamento de banco de dados definido para ser utilizado no gerenciamento do banco de dados.</p>
+<p><b>Node.js: </b>Escolhido para ser utilizado no desenvolvimento do back-end da aplicação, juntamente com a linguagem JavaScript e a biblioteca Express.</p>
+<p><b>React: </b>Framework definido para ser utilizado no desenvolvimento da interface do aplicativo.</p>
+<p><b>MongoDB: </b>Sistema de gerenciamento de banco de dados definido para ser utilizado no gerenciamento do banco de dados.</p>
 
 </br>
 </br>
@@ -52,13 +52,13 @@
 </br>
 
 <h2>Project Status:</h2>
-<p><b>Back-End: </b>Back-end development partially completed, requiring changes in Financial to adjust the visualization by month and year.</p>
+<p><b>Back-End: </b>Development initially completed. It will soon be converted to work with Node.js (JavaScript and Express).</p>
 <p><b>Front-End: </b>Development scheduled to begin soon, creating the interface that will be used by users.</p>
 <p><b>Database: </b>Development scheduled to begin soon, converting data storage from JSON to a Database.</p>
 
 </br>
 
 <h2>Tools Used:</h2>
-<img width="50" alt="Python" src="https://github.com/Eduardo-JS-22/ProjetoBRCompensados/assets/135711340/174cdb4f-06e5-486c-907c-704a1e669ee3"><p><b>Python: </b>Used for the development of the application's back-end.</p>
-<img width="50" alt="Django" src="https://github.com/Eduardo-JS-22/ProjetoBRCompensados/assets/135711340/92e82b55-4878-4bf2-8085-4dadaaae7468"><p><b>Django: </b>Framework defined to be used for the development of the application interface.</p>
-<img width="50" alt="MySQL" src="https://github.com/Eduardo-JS-22/ProjetoBRCompensados/assets/135711340/91be1295-44ea-4c4e-95bd-118d3aa8e451"><p><b>MySQL: </b>Database management system defined to be used for database management.</p>
+<p><b>Node.js: </b>Chosen to be used in the development of the application's back-end, together with the JavaScript language and the Express library.</p>
+<p><b>React: </b>Framework defined to be used for the development of the application interface.</p>
+<p><b>MongoDB: </b>Database management system defined to be used for database management.</p>
