@@ -14,7 +14,7 @@ class ClienteController {
         try {
             const id = req.params.id;
             const resultadoBusca = await cliente.findById(id).populate("endereco").exec();
-            res.status(200).json(resultadoBusca)
+            res.status(200).json(resultadoBusca);
         } catch (erro) {
             res.status(500).json({mensagem: "Erro ao listar clientes por id.", erro: erro.message});
         }
