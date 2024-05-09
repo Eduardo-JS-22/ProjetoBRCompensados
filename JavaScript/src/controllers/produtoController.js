@@ -47,7 +47,7 @@ class ProdutoController {
         } catch (erro) {
             res.status(500).json({mensagem: "Erro ao deletar produto.", erro: erro.message});
         }
-    }
+    };
 }
 
 export default ProdutoController;
