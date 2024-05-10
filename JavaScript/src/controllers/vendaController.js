@@ -37,6 +37,8 @@ class VendaController {
     static atualizarVenda = async (req, res) => {
         try {
             const id = req.params.id;
+            const vendas = await venda.findById(id);
+            await VendaBusiness.atualizarEstoqueVenda(vendas);
             const produtos = req.body.produtos;
             const quantidades = req.body.quantidades;
             req.body.valor = await VendaBusiness.retornaValorTotalVenda(produtos, quantidades);
@@ -50,6 +52,8 @@ class VendaController {
     static deletarVenda = async (req, res) => {
         try {
             const id = req.params.id;
+            const vendas = await venda.findById(id);
+            await VendaBusiness.atualizarEstoqueVenda(vendas);
             await venda.findByIdAndDelete(id);
             res.status(200).json({mensagem: "Venda deletada com sucesso."});
         } catch (erro) {
