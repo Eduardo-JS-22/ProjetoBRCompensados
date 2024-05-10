@@ -7,6 +7,7 @@ class VendaBusiness {
             for (let i = 0; i < produtos.length; i++) {
                 let estoqueDisponivel = await ProdutoBusiness.conferirEstoqueProduto(produtos[i], quantidades[i])
                 if (estoqueDisponivel) {
+                    await ProdutoBusiness.retirarEstoqueProduto(produtos[i], quantidades[i]);
                     let valor = await ProdutoBusiness.retornarPrecoVendaProduto(produtos[i]);
                     valorTotal += valor * quantidades[i];
                 } else {
@@ -17,7 +18,19 @@ class VendaBusiness {
         } catch (erro) {
             throw new Error(erro.message);
         }
-    }
+    };
+
+    static atualizarEstoqueVenda = async (vendas) => {
+        try {
+            const produtos = vendas.produtos;
+            const quantidades = vendas.quantidades;
+            for (let i = 0; i < produtos.length; i++) {
+                await ProdutoBusiness.adicionarEstoqueProduto(produtos[i], quantidades[i]);
+            }
+        } catch (erro) {
+            throw new Error(erro.message);
+        }
+    };
 }
 
 export default VendaBusiness;
